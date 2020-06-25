@@ -1,12 +1,14 @@
         :root{
           --title-color: #322153;
           --primary-color: #34cb79;
+          --modal-color: #f0f0f5;
 
         }
 
         * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
 
         }
         html{
