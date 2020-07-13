@@ -31,6 +31,17 @@
     #page-search-results .cards img{
         height: 200px;
     }
+
+    #page-create-point .field-group{
+
+        flex-direction: column;
+    }
+
+    #page-create-point .field-group .field + .field{
+
+        margin-left: 0;
+    }
+
 }
 @media(min-width:1700px){
     page-home{
@@ -40,5 +51,7 @@
 @media (max-height:760px){
     #page-home{
         background-position-y:200px;
+
+}
 
 }

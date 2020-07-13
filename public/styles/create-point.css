@@ -16,11 +16,11 @@
 }
 
 #page-create-point header a{
-color: var(--title-color);
-font-weight: bold;
-
-display: flex;
-align-items: center;
+    color: var(--title-color);
+    font-weight: bold;
+    
+    display: flex;
+    align-items: center;
 
 
 }
@@ -63,14 +63,25 @@ form fieldset{
 form legend {
 
     margin-bottom: 40px;
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 form legend h2{
 
     font-size: 24px;
+   
 }
 
+form legend span{
+
+font-size: 14px;
+color : var(--title-color);
+
+
+}
 form .field{
     flex: 1;
 
@@ -109,8 +120,8 @@ form select{
 
 form label {
 
-    font-size: : 14px;
-    margin-bottom: 8px;
+    font-size :  14px;
+    margin-bottom : 8px;
 
 }
 
@@ -176,7 +187,7 @@ cursor: pointer;
 }
 
 .items-grid li span{
-    margin-top:  :12px;
+    margin-top:12px;
 
     flex:1;
     

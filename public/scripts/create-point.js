@@ -72,8 +72,11 @@ function handleSelectedItem(event) {
 
     const itemId = itemLi.dataset.id
 
+    console.log("ITEM ID:", itemId)
+
     // verificar se existem itens selecionados , se sim
    // pegar os itens selecionados
+
    const alreadySelected = selectedItems.findIndex(item =>{
         const itemFound = item == itemId // isso sera true ou false
        return itemFound
@@ -88,7 +91,6 @@ if( alreadySelected >= 0 ) {
         const itemIsDifferent = item != itemId // false
         
         return itemIsDifferent 
-
     })
     selectedItems = filteredItems
 
@@ -100,7 +102,7 @@ if( alreadySelected >= 0 ) {
 }
 
 
-console.log(selectedItems)
+console.log("SELECTEDITENS:", selectedItems)
 
 
    // atualizar o campo escondido com os dados selcionados
